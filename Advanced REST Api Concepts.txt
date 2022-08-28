@@ -1,0 +1,9 @@
+1. Swagger and OPEN API
+	- Specification to document REST apis.
+
+2. Content negotiation
+	-Add a jackson dependency
+	-clients can send the format of the data they want in Headers
+
+3. I18N
+	-Response can be sent back in various languages.

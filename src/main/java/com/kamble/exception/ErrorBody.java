@@ -6,6 +6,10 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
+/*
+    Custom ERROR class to send to the Client.
+ */
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
