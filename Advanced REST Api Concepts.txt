@@ -7,3 +7,24 @@
 
 3. I18N
 	-Response can be sent back in various languages.
+
+4. API versioning
+	- url
+	- url parameters
+	- Headers
+
+5. HATEAOS (Hypermedia as the Engine of Application State)
+	-When returning a response, can also return links to other resources
+
+6. Filtering - Preventing certain fields from sending to the response.
+	- static: In the Entity we will add annotation, so that this field is never returned in the response (eg: password)
+	- dynamic: Not showing some fields only to a certain requester.
+
+7. Actuator
+	- Use for monitoring Application health, API traffic etc.
+
+8. HAL explorer
+	- A dependency that we add which has an UI various links. Non technical people can explore our APIS using this.
+
+9. Spring Security
+	- provides basic authentication and authorization by default. But we can override it.
